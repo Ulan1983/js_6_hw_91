@@ -1,0 +1,60 @@
+.chatWin {
+    width: 100%;
+    height: 85vh;
+    border: 1px solid #282c34;
+    padding: 10px;
+    display: flex;
+}
+
+.chatUsers {
+    width: 15%;
+    height: 100%;
+    border: 1px solid #282c34;
+    text-align: left;
+    padding: 10px;
+}
+
+.mainHolder {
+    width: 85%;
+    height: 100%;
+}
+
+.chatMain {
+    height: 90%;
+    border: 1px solid #282c34;
+    padding: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.message {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    text-align: left;
+}
+
+.message input {
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px 0 0 10px;
+    outline: none;
+    border: 1px solid #282c34;
+    border-right: none;
+}
+
+.message button {
+    width: 20%;
+    padding: 10px;
+    background: linear-gradient(to bottom, rgba(239,197,202,1) 0%, rgba(186,39,55,1) 50%, rgba(241,142,153,1) 100%);
+    border: 1px solid #282c34;
+    border-left: none;
+    border-radius: 0 10px 10px 0;
+    color: white;
+}
+
+.message button:focus {
+    background: linear-gradient(to bottom, rgba(239,197,202,1) 0%, rgba(186,39,55,1) 0%, rgba(241,142,153,1) 50%, rgba(186,39,55,1) 100%);
+    outline: none;
+}
